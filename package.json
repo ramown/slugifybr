@@ -1,7 +1,7 @@
 {
   "name": "slugifybr",
-  "version": "0.0.1",
-  "description": "Template base para projetos TypeScript modernos",
+  "version": "0.0.2",
+  "description": "Gera slugs limpos e consistentes para textos em português do Brasil",
   "main": "index.js",
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged && npm run test",
@@ -35,10 +35,20 @@
   },
   "license": "MIT",
   "keywords": [
+    "slug",
+    "slugify",
+    "slugifybr",
+    "url",
+    "url-safe",
+    "normalize",
+    "pt-br",
+    "portuguese",
+    "remove-accents",
+    "text-cleaning",
     "typescript",
-    "template",
-    "tsup",
-    "vitest"
+    "string",
+    "seo",
+    "text-utils"
   ],
   "type": "module",
   "devDependencies": {
